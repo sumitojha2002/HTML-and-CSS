@@ -1,0 +1,429 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Island Moments', cursive;
+}
+
+
+.one{
+    position: relative;
+    background: rgb(87, 1, 87);
+    display: flex;
+    box-shadow: 1px 4px 5px black;
+}
+
+#logo{
+    width: 120px;
+    padding-right: flex;
+    margin-left: 20px;
+}
+.one h1{
+    text-align: center;
+    position: absolute;
+    width:100%;
+    top:25%;
+    font-size: 75px;
+    color:white;
+}
+
+.two {
+    position: relative;
+    display: block;
+}
+.two ul li{
+    font-size: 45px;
+    padding-left: 40px;
+    list-style-type: none;
+}
+.two ul li a{
+    font-weight: bolder;
+    color:rgb(68, 3, 68);
+    padding-left: 220px;
+    text-decoration: none;
+    float:left;
+    transition: all 0.5s;
+}
+.two ul li:hover{
+    font-size: 50px;
+}
+
+#show_bg {
+    text-align: center;
+    background:linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)) ,url('./image/istockphoto-1055389594-612x612.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    color: white;
+}
+.show h1 {
+    padding-top: 15%;
+    margin-top: 100px;
+    font-size: 100px;
+}
+.show p{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.hey{
+    padding-top:70px;
+    font-size: 70px;
+    text-align: center;
+}
+
+.cards{
+    display:inline-block;
+    width: 20%;
+    background-color: grey;
+    border-radius: 5px;
+    margin: 90px;
+    box-shadow: 2px 2px 10px black;
+}
+.image img{
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+    font-size: 25px;
+}
+.des p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:aliceblue;
+    text-align: center;
+    padding: 4px;
+}
+.cards button{
+    font-family: 'Roboto', sans-serif;
+    margin-left:100px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border:1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    transition:.5s;
+    cursor: pointer;
+}
+
+.cards button:hover{
+    background-color: black;
+    color:white;
+}
+
+.service{
+    margin:90px;
+}
+
+
+.sev{
+    width:20em;
+    height:12em;
+    transition: all 1s;
+}
+
+
+
+.service-heading h1{
+    text-align: center;
+        font-size: 70px;
+}
+
+
+.twitter{
+    margin-top: 5em;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    box-shadow: 1px 4px 9px ;
+    padding: 10px;
+    border-radius: 20px;
+    width:30%;
+    margin-left: 14%;
+    margin-bottom: 5em;
+    border: 1px solid black;
+}
+.twimg{
+    font-family: 'Roboto', sans-serif;
+    display: inline-flex;
+}
+
+.twimg h1{
+    font-family: 'Roboto', sans-serif;
+    margin-left:12px;
+    font-size: 1rem;
+}
+.twimg p{
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+    color:black;
+    font-weight:bold;
+}
+.diffa {
+    font-family: 'Roboto',
+            sans-serif;
+    font-size:11px;
+    margin-left: 2px;
+    font-family:'Roboto',
+        sans-serif ;
+    font-weight:lighter;
+}
+
+.diff{
+    color:blue;
+    margin-left: 2px;
+    font-family: 'Roboto',
+            sans-serif;
+}
+
+#twitter-img{
+    width:5%;
+}
+.tweet p{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    margin-top:25px;
+    margin-left: 2px;
+    margin-right:2px;
+    padding-bottom: 2px;
+    padding: 2px;
+    font-size: 1rem;
+}
+.fa-twitter{
+    color:#00acee;
+}
+.ayush h1{
+    font-weight: bolder;
+}
+.ayush p{
+    font-weight: 100;
+    font-size:12px;
+}
+.icon{
+    margin-left:70px;
+}
+.fa-comment{
+    margin-right:60px;
+    cursor: pointer;
+}
+.fa-retweet{
+    margin-right: 60px;
+        cursor: pointer;
+}
+.fa-heart {
+    margin-right: 60px;
+    cursor: pointer;
+}
+.fa-arrow-up {
+    margin-right: 60px;
+        cursor: pointer;
+}
+.footer{
+    background-color: purple;
+}
+.container{
+    max-width:1170px;
+    margin:auto;
+}
+.row ul{
+    list-style: none;
+}
+.footer{
+    font-family: 'Roboto', sans-serif;
+    background-color:#24262b ;
+    padding:70px 0;
+}
+.row{
+    font-family: 'Roboto', sans-serif;
+    display:flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    width:25%;
+    padding:0 25px;
+}
+.footer-col h4{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline red;
+    font-size:18px;
+    color:white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    text-transform: capitalize;
+    color:aliceblue;
+    text-decoration: none;
+    font-weight: 300;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width:40px;
+    background-color: #3c414d;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: white;
+}
+.aboutus {
+    margin-top:5rem;
+    margin-left: 5rem;
+    margin-right:5rem;
+}
+.aboutus h1{
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.aboutus p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    word-spacing:9px;
+}
+.contact{
+    background-color: rgb(239, 238, 238);
+    padding:0rem;
+    margin-left: 35rem;
+    margin-right: 34rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+.contact h1{
+    color:white;
+    font-size: 3rem;
+    margin-bottom:12px;
+    text-align: center;
+    background: black;
+    border-radius: 15px 15px 0 0;
+}
+
+.contact h3{
+    font-size: 3rem;
+    margin-left:70px;
+}
+
+.name{
+    
+    font-size: 2rem;
+    padding: 0;
+    margin-left: 30px;
+
+}
+.input-box{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 4px;
+    margin-left: 0.5rem;
+    font-size: 1rem;
+    padding-left:7px;
+    padding-right: 7px;
+    width: 10rem;
+    border: 2px solid #3c414d;
+    border-radius: 15px;
+    outline:none;
+    color-scheme: block;
+    padding-bottom:4px ;
+}
+.kkk{
+    font-weight: bold;
+    margin-left: 2rem ;
+
+}
+
+.bob{
+    background:linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(82, 2, 62, 0.817)), url(./image/backgound.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.descript{
+    border:2px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    padding:15px 15px 15px 15px;
+    margin-left: 6px;
+    border-radius: 15px;
+}
+.submit{
+    border:2px solid black;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    padding:5px;
+    display:flex;
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    background: black;
+    margin-left: 120px;
+}
+
+.sub{
+    border: 1px solid black;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        cursor: pointer;
+        padding: 5px;
+        display: flex;
+        color:white;
+        font-family: 'Courier New', Courier, monospace;
+        background: black;
+        margin-left: 120px;
+        text-align: center;
+}
+button a{
+    margin:0 7px 0 2px;
+    padding:0 2px 0 4px;
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.up{
+    text-align: center;
+}
+.up table{
+    margin-left: 23rem;
+}
+
+.black{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-width: 60em;
+    border-spacing: 0;
+    width: 50%;
+    border-radius: 15px;
+}
+.blackk{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:40%;
+    margin:0;
+    width:20%;
+    background-color:black;
+    color:white;
+}
+.blackk th{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    padding: 4%;
+}
+.blackkk td{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding:4%;
+}
+.table tr{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: 4rem;
+}
