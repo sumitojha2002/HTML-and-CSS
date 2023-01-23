@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+}
+
+form{
+    display: flex;
+   flex-direction: column;
+   padding:20px;
+}
+
+input{
+    display: flex;
+}
